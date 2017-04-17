@@ -93,7 +93,7 @@ a:active {
 
 .heading span {
     font-size: 45px;
-    color: #ff530a;
+    color: #23cca5;
     font-weight: 600;
 }
 
@@ -200,7 +200,7 @@ nav .block .navbar-default .navbar-nav > li > a:before {
 }
 
 nav .block .navbar-default .navbar-nav > li > a:hover:before {
-    background-color: #e94c3d;
+    background-color: #23cca5;
     content: "";
     width: 100%;
 }
@@ -223,7 +223,7 @@ nav .block .navbar-default .navbar-nav > li.current > a:before {
     -o-transition: .3s all;
     transition: .3s all;
     width: 100%;
-    background-color: #e94c3d;
+    background-color: #23cca5;
 }
 
 nav .block .navbar-default .navbar-nav > .active > a,
@@ -240,7 +240,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     bottom: 0px;
     width: 100%;
     height: 2px;
-    background: #FF5333;
+    background: #23cca5;
 }
 
 
@@ -271,7 +271,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #foto4,
 #foto5,
 #foto6 {
-    padding: 300px 0px;
+    padding: 340px 0px;
     text-align: center;
     position: relative;
 }
@@ -281,6 +281,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 #foto2 {
@@ -288,6 +289,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 #foto3 {
@@ -316,6 +318,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 #foto:before,
@@ -349,36 +352,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     padding: 20px 0;
 }
 
-#contact-us .block form {
-    padding-bottom: 20px;
-}
-
-#contact-us .block form input {
-    height: 48px;
-    border-radius: 0px;
-    box-shadow: none;
-    -webkit-transition: .3s all;
-    -o-transition: .3s all;
-    transition: .3s all;
-}
-
-#contact-us .block form input:focus {
-    border: 1px solid #7EC3BB;
-}
-
-#contact-us .block form textarea {
-    height: 140px;
-    border-radius: 0px;
-    box-shadow: none;
-    -webkit-transition: .3s all;
-    -o-transition: .3s all;
-    transition: .3s all;
-}
-
-#contact-us .block form textarea:focus {
-    border: 1px solid #7EC3BB;
-}
-
 #contact-us .block a {
     background: #FF4F02;
     float: right;
@@ -410,7 +383,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 
 #footer .block h3 span {
-    color: #FF4F02;
+    color: #23CCA5;
 }
 
 #footer .block .blog ul,
@@ -423,7 +396,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .info ul li,
 #footer .block .gallary ul li {
     margin-bottom: 25px;
-    display: inline-block;
     margin-right: 20px;
 }
 
@@ -432,7 +404,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .gallary ul li h4 {
     padding-bottom: 10px;
     display: block;
-    color: #FF4F02;
+    color: #23CCA5;
 }
 
 #footer .block .blog ul li h4 i,
@@ -446,7 +418,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .blog ul li h4 a,
 #footer .block .info ul li h4 a,
 #footer .block .gallary ul li h4 a {
-    color: #FF4F02;
+    color: #23CCA5;
     font-size: 20px;
     font-weight: 600;
 }
@@ -465,7 +437,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 
 #footer .block .social-media-link h3 span {
-    color: #FF4F02;
+    color: #23CCA5;
 }
 
 #footer .block .social-media-link ul li {
@@ -489,7 +461,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 
 #footer .block .social-media-link ul li a:hover {
-    background: #FF4F02;
+    background: #23CCA5;
     color: #fff;
 }
 
@@ -513,5 +485,5 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 
 #footer-bottom p a {
-    color: #FF4F02;
+    color: #23CCA5;
 }
