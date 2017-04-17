@@ -1,0 +1,201 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*--
+    custom heading Start
+--*/
+    .title {
+        text-align: left;
+    }
+    /*--
+    nav Start
+--*/
+    nav .block {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    nav .block .navbar-brand img {
+        padding-left: 25px;
+    }
+    /*--
+    text-area Start
+--*/
+    #text-area .block p {
+        padding: 30px 0 0;
+    }
+    /*--
+    contact-us Start
+--*/
+    #contact-us {
+        padding: 60px 0 0;
+    }
+    #contact-us .block {
+        text-align: center;
+    }
+    #contact-us .block .title {
+        text-align: left;
+    }
+    #contact-us .block a {
+        padding: 15px 80px;
+        float: inherit;
+    }
+    /*--
+    footer Start
+--*/
+    #footer .block {
+        padding-bottom: 20px;
+    }
+    #footer .block h3 {
+        padding-bottom: 10px;
+    }
+    /*--
+    footer-bottom Start
+--*/
+    #footer-bottom .block .navbar-nav {
+        float: inherit;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #footer-bottom .block p {
+        text-align: center;
+        padding-top: 0px;
+    }
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+    /*--
+    custom heading Start
+--*/
+    .heading {
+        text-align: center;
+        font-size: 22px;
+    }
+    .heading span {
+        font-size: 28px;
+    }
+    /*--
+    custom heading Start
+--*/
+    .title {
+        text-align: left;
+    }
+    /*--
+    nav Start
+--*/
+    nav {
+        position: relative;
+    }
+    nav .block {
+        padding: 0px;
+        margin-bottom: 0px;
+        background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+        background: -o-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+        background: -moz-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+        background: linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    }
+    nav .block .navbar-brand img {
+        padding-left: 10px;
+    }
+    nav .block .navbar-default {
+        margin-top: 10px;
+        padding: 3px 0;
+    }
+    nav .block .navbar-default .navbar-header {
+        padding-bottom: 15px;
+        margin-top: 0px;
+    }
+    nav .block .navbar-default .navbar-header .navbar-toggle {
+        margin-top: 15px;
+        border: none;
+    }
+    nav .block .navbar-default .navbar-header .navbar-toggle .icon-bar {
+        background: #e94c3d;
+    }
+    nav .block .navbar-default .navbar-header .navbar-toggle:focus {
+        background: none;
+    }
+    nav .block .navbar-default .navbar-header .navbar-toggle:active {
+        background: none;
+    }
+    nav .block .navbar-default .navbar-header .navbar-toggle:hover {
+        background: none;
+    }
+    /*--
+    custom title Start
+--*/
+    #title h2 {
+        font-size: 20px;
+    }
+    #title h2 span {
+        font-size: 25px;
+    }
+    /*--
+    text-area Start
+--*/
+    #text-area .block p {
+        padding: 40px 0px 0px;
+    }
+    /*--
+    foto Start
+--*/
+    #foto .block h1 {
+        font-size: 30px;
+    }
+    #foto .block h1 span {
+        font-size: 25px;
+    }
+    /*--
+    contact-us Start
+--*/
+    #contact-us {
+        padding: 60px 0 0;
+    }
+    #contact-us .block a {
+        padding: 20px 80px;
+        width: 100%;
+        float: inherit;
+    }
+    /*--
+    footer Start
+--*/
+    #footer .block {
+        padding-bottom: 50px;
+    }
+    #footer .block .info ul li {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #footer .block .portfolio img {
+        margin-top: 20px;
+    }
+    #footer .block .portfolio ul li {
+        margin-right: 0px;
+        display: inline-block;
+    }
+    /*--
+    footer-bottom Start
+--*/
+    #footer-bottom .block .navbar {
+        display: none;
+    }
+    #footer-bottom .block p {
+        text-align: center;
+        padding-top: 0px;
+    }
+}
