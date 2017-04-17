@@ -7,15 +7,9 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /*--
-    custom heading Start
---*/
     .title {
         text-align: left;
     }
-    /*--
-    nav Start
---*/
     nav .block {
         padding-left: 0px;
         padding-right: 0px;
@@ -24,15 +18,17 @@ px      68    160    252    344    436    528    620    712    */
     nav .block .navbar-brand img {
         padding-left: 25px;
     }
-    /*--
-    text-area Start
---*/
-    #text-area .block p {
+    #foto,
+    #foto2,
+    #foto3,
+    #foto4,
+    #foto5,
+    #foto6 {
+        background-attachment: scroll;
+    }
+    .text-area .block p {
         padding: 30px 0 0;
     }
-    /*--
-    contact-us Start
---*/
     #contact-us {
         padding: 60px 0 0;
     }
@@ -46,18 +42,12 @@ px      68    160    252    344    436    528    620    712    */
         padding: 15px 80px;
         float: inherit;
     }
-    /*--
-    footer Start
---*/
     #footer .block {
         padding-bottom: 20px;
     }
     #footer .block h3 {
         padding-bottom: 10px;
     }
-    /*--
-    footer-bottom Start
---*/
     #footer-bottom .block .navbar-nav {
         float: inherit;
         width: 70%;
@@ -79,9 +69,6 @@ cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-    /*--
-    custom heading Start
---*/
     .heading {
         text-align: center;
         font-size: 22px;
@@ -89,15 +76,9 @@ px      68    160    252    */
     .heading span {
         font-size: 28px;
     }
-    /*--
-    custom heading Start
---*/
     .title {
         text-align: left;
     }
-    /*--
-    nav Start
---*/
     nav {
         position: relative;
     }
@@ -125,7 +106,7 @@ px      68    160    252    */
         border: none;
     }
     nav .block .navbar-default .navbar-header .navbar-toggle .icon-bar {
-        background: #e94c3d;
+        background: #23cca5;
     }
     nav .block .navbar-default .navbar-header .navbar-toggle:focus {
         background: none;
@@ -136,33 +117,23 @@ px      68    160    252    */
     nav .block .navbar-default .navbar-header .navbar-toggle:hover {
         background: none;
     }
-    /*--
-    custom title Start
---*/
-    #title h2 {
-        font-size: 20px;
-    }
-    #title h2 span {
-        font-size: 25px;
-    }
-    /*--
-    text-area Start
---*/
-    #text-area .block p {
+    .text-area .block p {
         padding: 40px 0px 0px;
     }
-    /*--
-    foto Start
---*/
+    #foto,
+    #foto2,
+    #foto3,
+    #foto4,
+    #foto5,
+    #foto6 {
+        background-attachment: scroll;
+    }
     #foto .block h1 {
         font-size: 30px;
     }
     #foto .block h1 span {
         font-size: 25px;
     }
-    /*--
-    contact-us Start
---*/
     #contact-us {
         padding: 60px 0 0;
     }
@@ -171,9 +142,6 @@ px      68    160    252    */
         width: 100%;
         float: inherit;
     }
-    /*--
-    footer Start
---*/
     #footer .block {
         padding-bottom: 50px;
     }
@@ -188,9 +156,6 @@ px      68    160    252    */
         margin-right: 0px;
         display: inline-block;
     }
-    /*--
-    footer-bottom Start
---*/
     #footer-bottom .block .navbar {
         display: none;
     }

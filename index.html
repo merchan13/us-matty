@@ -35,7 +35,12 @@
     <script src="js/main.js"></script>
 </head>
 
-<body>
+
+
+<body onload="myFunction()">
+
+    <img id="loader-logo" src="images/logo.png" alt="">
+    <div id="loader"></div>
 
     <nav id="navigation">
         <div class="container">
@@ -87,7 +92,7 @@
     </section>
 
     <div id="texto1"></div>
-    <section id="text-area">
+    <section id="text-area1" class="text-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -112,7 +117,7 @@
     </section>
 
     <div id="texto2"></div>
-    <section id="text-area">
+    <section id="text-area2" class="text-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -137,7 +142,7 @@
     </section>
 
     <div id="texto3"></div>
-    <section id="text-area">
+    <section id="text-area3" class="text-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -162,7 +167,7 @@
     </section>
 
     <div id="texto4"></div>
-    <section id="text-area">
+    <section id="text-area4" class="text-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -187,7 +192,7 @@
     </section>
 
     <div id="texto5"></div>
-    <section id="text-area">
+    <section id="text-area5" class="text-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -325,6 +330,39 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("loader-logo").style.display = "none";
+            document.getElementById("navigation").style.display = "block";
+            document.getElementById("foto").style.display = "block";
+            document.getElementById("foto2").style.display = "block";
+            document.getElementById("foto3").style.display = "block";
+            document.getElementById("foto4").style.display = "block";
+            document.getElementById("foto5").style.display = "block";
+            document.getElementById("foto6").style.display = "block";
+            document.getElementById("text-area1").style.display = "block";
+            document.getElementById("text-area2").style.display = "block";
+            document.getElementById("text-area3").style.display = "block";
+            document.getElementById("text-area4").style.display = "block";
+            document.getElementById("text-area5").style.display = "block";
+            document.getElementById("texto1").style.display = "block";
+            document.getElementById("texto2").style.display = "block";
+            document.getElementById("texto3").style.display = "block";
+            document.getElementById("texto4").style.display = "block";
+            document.getElementById("texto5").style.display = "block";
+            document.getElementById("contact-us").style.display = "block";
+            document.getElementById("footer").style.display = "block";
+            document.getElementById("footer-bottom").style.display = "block";
+        }
+    </script>
 
 </body>
 
