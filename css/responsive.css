@@ -23,7 +23,8 @@ px      68    160    252    344    436    528    620    712    */
     #foto3,
     #foto4,
     #foto5,
-    #foto6 {
+    #foto6,
+    #foto7 {
         background-attachment: scroll;
     }
     .text-area .block p {
@@ -125,7 +126,8 @@ px      68    160    252    */
     #foto3,
     #foto4,
     #foto5,
-    #foto6 {
+    #foto6,
+    #foto7 {
         background-attachment: scroll;
     }
     #foto .block h1 {
@@ -133,14 +135,6 @@ px      68    160    252    */
     }
     #foto .block h1 span {
         font-size: 25px;
-    }
-    #contact-us {
-        padding: 60px 0 0;
-    }
-    #contact-us .block a {
-        padding: 20px 80px;
-        width: 100%;
-        float: inherit;
     }
     #footer .block {
         padding-bottom: 50px;

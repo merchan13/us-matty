@@ -62,6 +62,11 @@ a:active {
     font-size: 15px;
 }
 
+.us {
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
 
 /*============== Mixins style start ================*/
 
@@ -126,17 +131,19 @@ a:active {
 #foto4,
 #foto5,
 #foto6,
+#foto7,
 #text-area1,
 #text-area2,
 #text-area3,
 #text-area4,
 #text-area5,
+#text-area6,
 #texto1,
 #texto2,
 #texto3,
 #texto4,
 #texto5,
-#contact-us,
+#texto6,
 #footer,
 #footer-bottom {
     display: none;
@@ -334,7 +341,8 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #foto3,
 #foto4,
 #foto5,
-#foto6 {
+#foto6,
+#foto7 {
     padding: 340px 0px;
     text-align: center;
     position: relative;
@@ -385,12 +393,21 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     background-position: center;
 }
 
+#foto7 {
+    background: url("../images/fotos/7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
 #foto:before,
 #foto2:before,
 #foto3:before,
 #foto4:before,
 #foto5:before,
-#foto6:before {
+#foto6:before,
+#foto7:before {
     content: "";
     position: absolute;
     left: 0;
@@ -439,6 +456,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 
 #footer {
     padding: 70px 0px;
+    text-align: center;
 }
 
 #footer .block h3 {
@@ -529,6 +547,10 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     color: #fff;
 }
 
+#video {
+    margin-top: 50px;
+}
+
 
 /*--
     footer-bottom Start
@@ -537,15 +559,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer-bottom {
     background: #E9E9E9;
     padding: 20px 0px;
-}
-
-#footer-bottom p {
-    text-align: center;
-    padding-top: 12px;
-    color: #454545;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 2px;
 }
 
 #footer-bottom p a {
